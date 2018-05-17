@@ -1,0 +1,12 @@
+Source: ros-melodic-map-merge-3d
+Section: misc
+Priority: extra
+Maintainer: Jiri Horner <laeqten@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-pcl-ros, ros-melodic-roscpp, ros-melodic-roslaunch, ros-melodic-rosunit, ros-melodic-tf2-eigen, ros-melodic-tf2-ros
+Homepage: http://wiki.ros.org/map_merge_3d
+Standards-Version: 3.9.2
+
+Package: ros-melodic-map-merge-3d
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-pcl-ros, ros-melodic-roscpp, ros-melodic-tf2-eigen, ros-melodic-tf2-ros
+Description: Merging multiple 3D maps, represented as pointclouds, without knowledge of initial positions of robots.
